@@ -1,0 +1,47 @@
+body {
+	background-color: #000
+}
+
+#console {
+	font-family: courier, monospace;
+	color: #fff;
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	font-size:14px;
+}
+
+a {
+	color: #0bc;
+}
+
+.user {
+	color: #ff0000;
+}
+
+.dir {
+	color: #2e71e6;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.c {
+	color: #0bc;
+}
+
+#k {
+    	animation: change 1s;
+}
+
+#op{
+    	color: #888888
+}
+
+@keyframes change {
+    	0%  { color:  #0f0; }
+    	50% { color:  #0f0; }
+    	99% { color: black; }
+}
